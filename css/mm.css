@@ -1,0 +1,246 @@
+*{
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.contener{
+    width:80% ;
+    margin: auto;
+}
+header{
+    background-color: rgb(24, 23, 23);
+    }
+header .contener{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header a{
+color: white;
+text-decoration: none;
+font-size: 28px;
+padding: 20px 20px;
+}
+ul{
+    list-style: none;
+display: flex;
+}
+
+header a:hover{
+color: hsl(23deg 100% 82%);
+background-color:rgb(107, 90, 90) ;
+}
+#k{
+    color: hsl(23deg 100% 82%);
+    background-color:rgb(107, 90, 90) ;
+}
+#first{
+height: calc(100vh - 72px);
+background-image: url(../img/8.jpg);
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+color: white;
+font-size: 40px;
+
+}
+#first p{
+margin-bottom: 15px;
+}
+#first button{
+    font-size: 20px;
+    background-color: transparent;
+    padding: 20px 0px;
+    width: 150px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(45, 37, 37);
+}
+#last{
+display: flex;
+
+}
+#last div{
+width: 50%;
+}
+#last div img{
+    width: 100%;
+    height: 400px;
+    }
+    .o {
+        background-color: rgb(22, 18, 18);
+height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    }
+    .o p{
+    color: white;
+    }
+    .o button{
+    color: white;
+    padding: 10px;
+    width: 50px;
+    border: none;
+    background-color: rgb(203, 89, 27);
+    }
+    #mody{
+   display: flex;
+    }
+ .fa-bed ,.fa-basketball,.fa-black-tie{
+font-size: 80px;
+    }
+    #mody .card {
+        width: 33.333%;
+        background-color: white;
+        padding: 50px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    #mody div:hover{
+    background-color:hsl(23deg 100% 82%) ;
+    transition-duration: 1s;
+    }
+    #mody .card *{
+        margin-bottom: 20px;
+    }
+    footer{
+    background-color: rgb(13, 12, 12);
+    padding: 60px 0px;
+    text-align: center;
+    color: white;
+
+    }
+    #sectiond .contener{
+    display: flex;
+    align-items: center;
+    }
+    .left{
+    width: 75%;
+    }
+    .right{
+    width: 25%;
+    }
+    .right img{
+    width: 100%;
+    height: 250px;
+    border-radius: 50%;
+    }
+    .contener h2{
+    font-size: 40px;
+    }
+    .contener p{
+   font-size: 20px;
+   color: silver;
+    }
+span{
+    color: hsl(23deg 100% 82%);
+}
+#moky{
+background-image: url(/img/5.jpg);
+background-size: cover;
+padding: 50px 0px;
+}
+.x{
+background-color:hsl(23deg 100% 82%);
+display: flex;
+align-items: center;
+padding: 15px 0px;
+margin-bottom: 25px;
+border-radius: 10px;
+}
+.x img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.x p{
+color: rgb(72, 68, 68);
+padding: 0px 10px;
+}
+#item{
+background-color: rgba(0, 0, 0, 0.756);
+width: 100;
+font-size: 20px;
+}
+#r{
+text-align: center;
+color: white;
+margin-bottom: 10px;
+
+}
+.u h1{
+font-size: 35px;
+margin-top: 30px;
+}
+.u p{
+color: rgb(46, 43, 43);
+margin-top: 25px;
+margin-bottom: 30px;
+
+}
+.tell input{
+width: 100%;
+height: 40px;
+margin-bottom: 15px;
+
+}
+.tell label{
+padding-bottom: 15px;
+color: slategrey;
+font-size: 20px;
+margin-top: 20px;
+}
+.pad label{
+    color: rgb(46, 43, 43); 
+    font-size: 20px;
+}
+.pad textarea{
+width: 100%;
+}
+.submit input{
+width:8%;
+height: 50px;
+background-color: black;
+color: white;
+margin-top: 25px;
+font-size: 15px;
+margin-bottom: 25px;
+}
+#orang{
+background-color: rgb(53, 54, 54);
+height: 300px;
+}
+.vb {
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.vb .fath{
+
+padding: 80px;
+margin-left: 20px;
+}
+.fath .fa-school-circle-exclamation,.fa-phone-flip,.fa-envelope {
+font-size: 58px;
+margin-bottom: 15px;
+color: white;
+}
+.fath p{
+margin-top:  25px;
+color: white;
+}
+.fath h1{
+color: white;
+}
+
+.foo{
+background-color: rgb(77, 73, 73);
+font-size: 20px;
+}
+
